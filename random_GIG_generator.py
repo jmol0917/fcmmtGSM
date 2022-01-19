@@ -176,6 +176,6 @@ while run < run_limit:
 
                 cofactor_req_syn_df = pd.DataFrame(cofactor_req_syn)
                 cofactor_req_syn_df = cofactor_req_syn_df.set_index('Strain')
-                cofactor_req_syn_df.to_csv('C:/Users/jpmo_/Dropbox (Sydney Uni)/Functional characterisation of the gut microbiome/test_networks/1000/GIG' + str(GIG) + '_version' + str(version) + '.csv')
+                cofactor_req_syn_df.to_csv('' + str(GIG) + '_version' + str(version) + '.csv')
                 version += 1
     run += 1
